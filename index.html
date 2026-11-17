@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<style>body{margin:0}img{max-width:100%}</style>
+<title>Debriefing Céu e Terra</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap">
+<style>
+/* Relatório de leitura em coluna única, na identidade da campanha Céu & Terra (índigo, dourado, lavanda, Jost). Visual único e escuro, de propósito. Abre pelo resultado; a conta fica no fim. */
+:root{color-scheme:dark;--bg:#160F30;--bg2:#0E0A22;--card:rgba(255,255,255,.06);--line:rgba(201,184,236,.22);--fg:#E9E3F6;--mute:#B5AAD6;--gold:#E8C97A;--gold2:#D4B06A;--lav:#C9B8EC;--mag:#B9129E;--good:#4FD39A;--font:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif}
+body{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%) fixed var(--bg2);color:var(--fg);font:400 17px/1.55 var(--font)}
+main{max-width:920px;margin:0 auto;padding-block:44px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:44px}
+h1,h2,h3{font-weight:300;text-wrap:balance;margin:0;letter-spacing:.005em}
+h1{font-size:clamp(2rem,6vw,2.7rem);line-height:1.12}h2{font-size:1.6rem}h3{font-size:1.15rem;font-weight:400}
+h1 b,h2 b{font-weight:500;color:var(--gold)}
+p{margin:0}
+.eyebrow{font-size:.74rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.sub{color:var(--mute);margin-top:8px}
+.orn{display:flex;align-items:center;gap:12px;color:var(--gold2);margin-top:14px}.orn::before,.orn::after{content:"";height:1px;width:56px;background:var(--gold2);opacity:.6}
+section{display:grid;gap:16px;min-width:0}
+.hero{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px;display:grid;gap:20px}
+.big{font-weight:300;font-size:clamp(2.8rem,10vw,4.4rem);line-height:1;color:var(--gold);font-variant-numeric:tabular-nums}
+.big small{font-size:.42em;color:var(--fg);font-weight:300}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;min-width:0}
+.kpi b{display:block;font-weight:400;font-size:1.45rem;font-variant-numeric:tabular-nums;color:#fff}
+.kpi span{color:var(--mute);font-size:.9rem}
+.flow{display:flex;height:30px;border-radius:8px;overflow:hidden;gap:2px}.flow span{display:block;min-width:0}
+.l0{background:var(--gold)}.l1{background:var(--lav)}.l1b{background:#9C86D6}.eq{background:var(--mag)}
+.legend{font-size:.88rem;color:var(--mute)}
+.sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:middle}
+.tw{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{padding:9px 14px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap;vertical-align:middle}
+th{font-size:.72rem;font-weight:500;text-transform:uppercase;letter-spacing:.12em;color:var(--mute)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+td.w{white-space:normal;min-width:200px}
+tr:last-child td{border-bottom:0}
+tr.sum td{font-weight:500;color:#fff}
+tr.win td{font-weight:500;color:var(--gold);background:rgba(232,201,122,.1)}
+tr.good td:first-child{box-shadow:inset 4px 0 var(--gold)}
+.barc{position:relative;min-width:120px}.hb{position:absolute;left:8px;top:22%;height:56%;background:var(--lav);opacity:.22;border-radius:3px}.hv{position:relative}
+.chart{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 12px 8px;overflow-x:auto}
+.chart svg{display:block;width:100%;height:auto;min-width:700px}
+.ax{font:400 11px var(--font);fill:var(--mute)}.ax2{font:400 10px var(--font);fill:var(--mute);opacity:.8}.lb{font:500 12px var(--font);fill:var(--fg)}.bq{fill:var(--gold)}.grid{stroke:var(--line)}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+.cr{margin:0;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:grid;grid-template-rows:auto 1fr;min-width:0}
+.cr.hi{border-color:var(--gold)}
+.cr .ph{background:var(--bg2);aspect-ratio:4/5;max-width:100%}.cr img{width:100%;height:100%;object-fit:cover;display:block}
+.cr .tx{padding:10px 12px;display:grid;gap:2px;font-size:.88rem;align-content:start}.cr .tx b{font-weight:500;font-size:1rem}
+.cr .n{font-variant-numeric:tabular-nums;font-size:.84rem}.mute{color:var(--mute)}
+.rk{font-size:.66rem;font-weight:500;color:var(--lav);letter-spacing:.14em;text-transform:uppercase}.cr.hi .rk{color:var(--gold)}
+ul{margin:0;padding-left:20px;display:grid;gap:8px}
+li b{font-weight:500;color:#fff}
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="eyebrow">Céu &amp; Terra · debriefing da pré-venda</div>
+<h1>Todas as vagas vendidas <b>no primeiro dia</b></h1>
+<p class="sub">Resultado da pré-venda do Céu e Terra: inscrições, faturamento e anúncios.</p>
+<div class="orn">☼</div>
+</header>
+
+<section class="hero">
+<div><div class="eyebrow">Vagas vendidas no primeiro dia</div><div class="big">24 <small>de 24</small></div>
+<p class="sub">Com as 3 inscrições da equipe, são 27 pessoas confirmadas.</p></div>
+<div class="kpis">
+<div class="kpi"><b>R$ 102.874,20</b><span>faturamento da pré-venda</span></div>
+<div class="kpi"><b>R$ 3.949</b><span>valor médio por vaga vendida</span></div>
+<div class="kpi"><b>R$ 586,59</b><span>investidos em anúncios</span></div>
+<div class="kpi"><b>81</b><span>cadastros trazidos pelos anúncios</span></div>
+</div>
+</section>
+
+<section>
+<h2>O que foi <b>vendido</b></h2>
+<div class="flow" role="img" aria-label="Inscrições por lote"><span class="l0" style="flex:9"></span><span class="l1" style="flex:11"></span><span class="l1b" style="flex:4"></span><span class="eq" style="flex:3"></span></div>
+<p class="legend"><span class="sw l0"></span>Lote 0: 9 · <span class="sw l1"></span>Lote 1 a R$ 3.999: 11 · <span class="sw l1b"></span>Lote 1 a R$ 4.599: 4 · <span class="sw eq"></span>Equipe: 3</p>
+<div class="tw"><table>
+<thead><tr><th>Lote</th><th class="n">Valor</th><th class="n">Inscrições</th><th class="n">Faturamento</th></tr></thead>
+<tbody>
+<tr><td>Lote 0</td><td class="n">R$ 3.599</td><td class="n">9</td><td class="n">R$ 32.391,00</td></tr>
+<tr><td>Lote 1</td><td class="n">R$ 3.999</td><td class="n">11</td><td class="n">R$ 43.989,00</td></tr>
+<tr><td>Lote 1</td><td class="n">R$ 4.599</td><td class="n">4</td><td class="n">R$ 18.396,00</td></tr>
+<tr><td>Equipe</td><td class="n">R$ 2.699,40</td><td class="n">3</td><td class="n">R$ 8.098,20</td></tr>
+<tr class="sum"><td>Total</td><td class="n"></td><td class="n">27</td><td class="n">R$ 102.874,20</td></tr>
+</tbody></table></div>
+<p class="legend">O Lote 0 esgotou com 9 vagas e o Lote 1 fechou as outras 15. As 24 vagas somam R$ 94.776,00; as 3 inscrições da equipe, R$ 8.098,20.</p>
+</section>
+
+<section>
+<h2>Os <b>anúncios</b></h2>
+<div class="kpis">
+<div class="kpi"><b>R$ 586,59</b><span>investidos de 26/10 a 06/11</span></div>
+<div class="kpi"><b>12.116</b><span>pessoas alcançadas</span></div>
+<div class="kpi"><b>897</b><span>cliques no link, 673 visitas à página</span></div>
+<div class="kpi"><b>R$ 7,24</b><span>por cadastro (81 cadastros)</span></div>
+</div>
+<h3>Cadastros por dia</h3>
+<div class="chart"><svg viewBox="0 0 740 232" role="img" aria-label="Cadastros por dia de 26/10 a 07/11">
+<line class="grid" x1="44" y1="190" x2="730" y2="190"></line>
+<line class="grid" x1="44" y1="115.0" x2="730" y2="115.0" stroke-dasharray="2 4"></line><text class="ax" x="38" y="119.0" text-anchor="end">20</text>
+<line class="grid" x1="44" y1="40.0" x2="730" y2="40.0" stroke-dasharray="2 4"></line><text class="ax" x="38" y="44.0" text-anchor="end">40</text>
+<text class="ax" x="69" y="206" text-anchor="middle">26/10</text><text class="ax2" x="69" y="222" text-anchor="middle">R$ 10</text>
+<text class="ax" x="121" y="206" text-anchor="middle">27/10</text><text class="ax2" x="121" y="222" text-anchor="middle">R$ 25</text>
+<text class="ax" x="173" y="206" text-anchor="middle">28/10</text><text class="ax2" x="173" y="222" text-anchor="middle">R$ 21</text>
+<rect class="bq" x="208" y="167.5" width="34" height="22.5" rx="3"></rect><text class="lb" x="225" y="162.5" text-anchor="middle">6</text>
+<text class="ax" x="225" y="206" text-anchor="middle">29/10</text><text class="ax2" x="225" y="222" text-anchor="middle">R$ 42</text>
+<rect class="bq" x="260" y="178.8" width="34" height="11.2" rx="3"></rect><text class="lb" x="277" y="173.8" text-anchor="middle">3</text>
+<text class="ax" x="277" y="206" text-anchor="middle">30/10</text><text class="ax2" x="277" y="222" text-anchor="middle">R$ 27</text>
+<text class="ax" x="329" y="206" text-anchor="middle">31/10</text><text class="ax2" x="329" y="222" text-anchor="middle">R$ 7</text>
+<rect class="bq" x="364" y="178.8" width="34" height="11.2" rx="3"></rect><text class="lb" x="381" y="173.8" text-anchor="middle">3</text>
+<text class="ax" x="381" y="206" text-anchor="middle">01/11</text><text class="ax2" x="381" y="222" text-anchor="middle">R$ 44</text>
+<rect class="bq" x="416" y="163.8" width="34" height="26.2" rx="3"></rect><text class="lb" x="433" y="158.8" text-anchor="middle">7</text>
+<text class="ax" x="433" y="206" text-anchor="middle">02/11</text><text class="ax2" x="433" y="222" text-anchor="middle">R$ 37</text>
+<text class="ax" x="485" y="206" text-anchor="middle">03/11</text><text class="ax2" x="485" y="222" text-anchor="middle">—</text>
+<rect class="bq" x="520" y="175.0" width="34" height="15.0" rx="3"></rect><text class="lb" x="537" y="170.0" text-anchor="middle">4</text>
+<text class="ax" x="537" y="206" text-anchor="middle">04/11</text><text class="ax2" x="537" y="222" text-anchor="middle">R$ 106</text>
+<rect class="bq" x="572" y="122.5" width="34" height="67.5" rx="3"></rect><text class="lb" x="589" y="117.5" text-anchor="middle">18</text>
+<text class="ax" x="589" y="206" text-anchor="middle">05/11</text><text class="ax2" x="589" y="222" text-anchor="middle">R$ 209</text>
+<rect class="bq" x="624" y="47.5" width="34" height="142.5" rx="3"></rect><text class="lb" x="641" y="42.5" text-anchor="middle">38</text>
+<text class="ax" x="641" y="206" text-anchor="middle">06/11</text><text class="ax2" x="641" y="222" text-anchor="middle">R$ 61</text>
+<rect class="bq" x="676" y="186.2" width="34" height="3.8" rx="3"></rect><text class="lb" x="693" y="181.2" text-anchor="middle">1</text>
+<text class="ax" x="693" y="206" text-anchor="middle">07/11</text><text class="ax2" x="693" y="222" text-anchor="middle">—</text>
+</svg></div>
+<p class="legend">Barras: cadastros no dia. Embaixo de cada data, o valor investido. 56 dos 81 cadastros chegaram em 05 e 06/11, os dois dias antes da abertura.</p>
+<h3>Os criativos</h3>
+<div class="gal"><figure class="cr hi"><div class="ph"><img src="img/video.jpg" alt="Anúncio: Vídeo (reel)" loading="lazy"></div><figcaption class="tx"><span class="rk">mais clicado e mais cadastros</span><b>Vídeo (reel)</b><span class="n">612 cliques · 62 cadastros</span><span class="n mute">R$ 3,37 por cadastro</span></figcaption></figure>
+<figure class="cr"><div class="ph"><img src="img/car1.jpg" alt="Anúncio: Carrossel 1" loading="lazy"></div><figcaption class="tx"><span class="rk">anúncio</span><b>Carrossel 1</b><span class="n">141 cliques · 10 cadastros</span><span class="n mute">R$ 16,51 por cadastro</span></figcaption></figure>
+<figure class="cr"><div class="ph"><img src="img/est2.jpg" alt="Anúncio: Estático: lista do ano passado" loading="lazy"></div><figcaption class="tx"><span class="rk">anúncio</span><b>Estático: lista do ano passado</b><span class="n">82 cliques · 3 cadastros</span><span class="n mute">R$ 45,70 por cadastro</span></figcaption></figure>
+<figure class="cr"><div class="ph"><img src="img/car2.jpg" alt="Anúncio: Carrossel 2" loading="lazy"></div><figcaption class="tx"><span class="rk">anúncio</span><b>Carrossel 2</b><span class="n">62 cliques · 6 cadastros</span><span class="n mute">R$ 12,58 por cadastro</span></figcaption></figure></div>
+<div class="tw"><table>
+<thead><tr><th>Criativo</th><th class="n">Cliques no link</th><th class="n">Visitas à página</th><th class="n">Alcance</th><th class="n">Investido</th><th class="n">Cadastros</th><th class="n">Custo por cadastro</th></tr></thead>
+<tbody><tr class=good><td>Vídeo (reel)</td><td class="n barc"><span class="hb" style="width:100%"></span><span class="hv">612</span></td><td class="n">491</td><td class="n">7.077</td><td class="n">R$ 208,95</td><td class="n">62</td><td class="n">R$ 3,37</td></tr>
+<tr><td>Carrossel 1</td><td class="n barc"><span class="hb" style="width:23%"></span><span class="hv">141</span></td><td class="n">103</td><td class="n">2.646</td><td class="n">R$ 165,08</td><td class="n">10</td><td class="n">R$ 16,51</td></tr>
+<tr><td>Estático: lista do ano passado</td><td class="n barc"><span class="hb" style="width:13%"></span><span class="hv">82</span></td><td class="n">38</td><td class="n">2.116</td><td class="n">R$ 137,10</td><td class="n">3</td><td class="n">R$ 45,70</td></tr>
+<tr><td>Carrossel 2</td><td class="n barc"><span class="hb" style="width:10%"></span><span class="hv">62</span></td><td class="n">41</td><td class="n">1.331</td><td class="n">R$ 75,46</td><td class="n">6</td><td class="n">R$ 12,58</td></tr></tbody></table></div>
+<p class="legend">O vídeo concentrou o resultado: 612 dos 897 cliques e 62 dos 81 cadastros, a R$ 3,37 cada. Nos vídeos e carrosséis, a imagem é a capa.</p>
+</section>
+
+<section>
+<h2>Resumo <b>financeiro</b></h2>
+<div class="tw"><table><tbody>
+<tr><td>Faturamento da pré-venda</td><td class="n">R$ 102.874,20</td><td class="w legend">27 inscrições, pelo valor de cada lote</td></tr>
+<tr><td>(−) Investimento em anúncios</td><td class="n">− R$ 586,59</td><td class="w legend">0,6% do faturamento</td></tr>
+<tr class="win"><td>Resultado da pré-venda</td><td class="n">R$ 102.287,61</td><td class="w">antes das taxas de pagamento e dos custos do evento</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>Como ler estes <b>números</b></h2>
+<ul>
+<li><b>Faturamento</b> é o valor de cada inscrição na lista de inscritos.</li>
+<li><b>Cadastro</b> é cada pessoa que deixou o contato pela página do anúncio.</li>
+<li><b>Fora desta conta:</b> taxas do meio de pagamento, impostos e custos de realização do evento.</li>
+</ul>
+<p class="legend">Fontes: lista de inscritos do Céu e Terra e Gerenciador de Anúncios da conta Amanae (campanha de cadastros, 26/10 a 07/11/2026), lido em 16/11/2026.</p>
+</section>
+</main>
+</body>
+</html>
